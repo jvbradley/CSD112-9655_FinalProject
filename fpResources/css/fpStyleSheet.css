@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerBody {
+    font-family: 'Open Sans';
+    background-color: #27576B;
+    display: grid;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+.containerTop {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+}
+
+#topSlogan {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#topWelcomeText {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#topLogo {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#topLogo img {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    margin: 10px;
+    border-style: solid;
+}
+
+#topNavBar {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
