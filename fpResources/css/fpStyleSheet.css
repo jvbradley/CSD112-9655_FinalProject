@@ -11,6 +11,17 @@ body {
     background-color: #102F3C;
 }
 
+#submitForm {
+    padding: 2px 5px;
+    margin: 5px 5px;
+}
+
+form label {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
 .containerBody {
     box-sizing: border-box;
     display: grid;
@@ -30,7 +41,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 #topWelcomeText {
@@ -104,7 +115,7 @@ a {
 }
 
 #containerBottom {
-    width: 98%;
+    width: 93%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
